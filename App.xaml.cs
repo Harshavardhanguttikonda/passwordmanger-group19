@@ -6,7 +6,8 @@ public partial class App : Application
 	public App()
 	{
 		
-		
-		
+		InitializeComponent();
+		vm = new PmViewModel();
+		MainPage = new NavigationPage(new LoginPage());		
 	}
 }
