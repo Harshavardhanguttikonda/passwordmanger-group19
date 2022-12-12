@@ -11,12 +11,7 @@ namespace PasswodManager
 {
     public class ApiService
     {
-        HttpClient _client;
-        JsonSerializerOptions _serializerOptions;
-
-        public List<PasswordItem> listOfItems { get; private set; }
-
-        public ApiService()
+        
         {
             _client = new HttpClient();
             _serializerOptions = new JsonSerializerOptions
