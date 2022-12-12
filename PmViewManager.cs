@@ -19,7 +19,9 @@ namespace PasswodManager
 
         public PmViewModel()
         {
-           
+            _passwords = new ObservableCollection<PasswordItem>();
+            api = new ApiService();
+            load();
         }
 
 
