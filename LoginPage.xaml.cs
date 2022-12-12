@@ -20,7 +20,7 @@ public partial class LoginPage : ContentPage
         }
         else
         {
-            await DisplayAlert("Alert", "Login Error, Please try again", "OK");
+            
         }
     }
 
